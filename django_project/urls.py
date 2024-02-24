@@ -21,4 +21,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("posts.urls")),
     path("api-auth/", include("rest_framework.urls")), # agregada para administrar usuarios desde la API
+    path("api/dj-rest-auth/", include("dj_rest_auth.urls")), # incluye una libreria para llamar la urls de otra app sin hacerlo uno a uno
 ]
