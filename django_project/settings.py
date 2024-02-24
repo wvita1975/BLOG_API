@@ -47,7 +47,7 @@ INSTALLED_APPS = [
 # Django REST Framework - Agregada manualmente
 
 REST_FRAMEWORK = {
-    "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.AllowAny",],
+    "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.IsAuthenticated",],
 }
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
