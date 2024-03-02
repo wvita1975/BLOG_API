@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView # agregada para administrar usuarios desde la API
+from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView,  # agregada para administrar usuarios desde la API
 
 
 
